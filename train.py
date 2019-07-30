@@ -112,6 +112,7 @@ lm_args.input_vocab_size = len(train_data.pny_vocab)
 lm_args.label_vocab_size = len(train_data.han_vocab)
 lm_args.max_length = 100
 lm_args.hidden_units = 512
+# 失活
 lm_args.dropout_rate = 0.2
 lm_args.lr = 0.0003
 lm_args.is_training = True
